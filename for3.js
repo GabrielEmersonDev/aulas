@@ -1,0 +1,1 @@
+//Calcule a soma dos números pares de 1 a 10 usando um loop for.
