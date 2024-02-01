@@ -31,12 +31,12 @@ pontuação final é calculada aplicando penalidade e bonus da pontuação base 
 
 */
 
-let pontuacao = 500;
+let pontuacao = 1000;
 let performance = 0;
 let perfPosPenRec = 0;
 let categoria = "distancia";
 let distancia = 1;
-let tempo = 0;
+let tempo = 1;
 let peso = "leve";
 let recordesQuebrados = 0;
 let penalidades = 0;
@@ -66,12 +66,6 @@ switch (categoria) {
   case "tempo":
     if (tempo <= 0) {
       console.log("tempo invalido:", tempo, ". tente um tempo de 1 para cima");
-    } else if (pontuacao < 0) {
-      console.log(
-        "Pontuação invalida:",
-        pontuacao,
-        ". tente uma pontuação de 0 para cima"
-      );
     } else if (peso != "leve" && peso != "pesado") {
       console.log(
         "Peso invalido:",
