@@ -1,1 +1,0 @@
-// Crie um programa que imprima a tabuada do 7 usando um loop for.

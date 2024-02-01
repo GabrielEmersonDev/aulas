@@ -48,7 +48,7 @@ if (
       cargoRemuneracao = 1.2;
 
       if (salario <= 0) {
-        console.log("Estagiaro é pai ?");
+        console.log("Estagiaro, é pai ?");
       } else if (performance == "excelente") {
         performanceAd = 1.15;
         valorTotal = salario * ano * 0.05 * cargoRemuneracao * performanceAd;
@@ -66,7 +66,7 @@ if (
       cargoRemuneracao = 1.1;
 
       if (salario <= 0) {
-        console.log("Estagiaro é pai ?");
+        console.log("Estagiaro, é pai ?");
       } else if (performance == "excelente") {
         performanceAd = 1.15;
         valorTotal = salario * ano * 0.05 * cargoRemuneracao * performanceAd;
@@ -85,7 +85,7 @@ if (
     case "gerente":
       cargoRemuneracao = 1.2;
       if (salario <= 0) {
-        console.log("Estagiaro é pai ?");
+        console.log("Estagiaro, é pai ?");
       } else if (performance == "excelente") {
         performanceAd = 1.15;
         valorTotal = salario * ano * 0.1 * cargoRemuneracao * performanceAd;
@@ -102,7 +102,7 @@ if (
       cargoRemuneracao = 1.1;
 
       if (salario <= 0) {
-        console.log("Estagiaro é pai ?");
+        console.log("Estagiaro, é pai ?");
       } else if (performance == "excelente") {
         performanceAd = 1.15;
         valorTotal = salario * ano * 0.1 * cargoRemuneracao * performanceAd;
