@@ -1,13 +1,8 @@
-// //Escreva um programa em JavaScript que solicita ao usuário para inserir um número inteiro.
-//  O programa deve então verificar se o número é positivo, negativo ou zero. Se o número for positivo,
-//  o programa deve exibir "Número positivo". Se for negativo, exiba "Número negativo". Se for zero, exiba "Zero".
+// Escreva um programa em JavaScript que utiliza a estrutura de repetição for para imprimir os primeiros 5 números pares.
+// Certifique-se de utilizar uma estrutura de controle de fluxo para verificar se cada número é par antes de imprimi-lo.
 
-const num1 = 0;
-
-if (num1 > 0) {
-  console.log("o numero é positivo");
-} else if (num1 < 0) {
-  console.log("o numero é negativo");
-} else {
-  console.log("o numero é zero");
+for (let i = 0; i <= 8; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
 }
