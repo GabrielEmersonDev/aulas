@@ -10,4 +10,4 @@ for (let i = 0; i <= 1000; i++) {
   }
 }
 
-console.log(soma);
+console.log(soma.toFixed(2));
