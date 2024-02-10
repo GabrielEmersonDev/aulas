@@ -17,3 +17,4 @@ console.log(alunos instanceof Array);
 // alunos[0] = 'eduardo';
 // alunos[n] = 'adiciona ou altera'
 // console.log(alunos);
+//const dia = newDate().getDay()

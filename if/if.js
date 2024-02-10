@@ -3,7 +3,6 @@
 // regras: os estudantes so podem acessar oo lab das 10 as 18 tambem durante dias uteis
 // regra: supervisores tem acesso a qualquer hora e qualquer dia, final de semana so supervisor entra
 
-
 //capacidade maxima de 5 pessoas no laboratorio.
 //
 // limite de pessoas atingido FEITO
@@ -18,24 +17,22 @@ const pessoas = 4;
 const hora = 19;
 const dia = 5;
 
-
-
-if ( pessoas >= 5 ) {
-    console.log('Limite de pessoas atingido');
-} else if ( cargo !== "supervisor" && dia >= 6) {
-    console.log('acesso negado: finais de semana somente para supervisores');
-} else if (pessoas <= 4 && cargo === "supervisor" ) {
-    console.log('Acesso permitido: supervisor');
-} else if ( cargo === "pesquisador" && dia >= 6 ) {
-    console.log('Acesso negado: fora do horario permitido');
-} else if ( cargo === "pesquisador" && (hora < 8 || hora > 20 )) {
-    console.log('Acesso negado: fora do horario permitido');
-} else if ( cargo === "pesquisador" && (hora < 8 || hora < 20)) {
-    console.log('Acesso permitido: pesquisador dentro do horario ');
-} else if ( cargo === "estudante" && dia >= 6) {
-    console.log('Acesso negado: fora do horario permitido');
-} else if ( cargo === "estudante" && (hora < 8 || hora > 18 )) {
-    console.log('Acesso negado: fora do horario permitido');
-} else if ( cargo === "estudante" && dia <= 5 && (hora >= 8 ||hora <= 18) ) {
-    console.log('Acesso permitido: estudante dentro do horario'); }
-
+if (pessoas >= 5) {
+  console.log("Limite de pessoas atingido");
+} else if (cargo !== "supervisor" && dia >= 6) {
+  console.log("acesso negado: finais de semana somente para supervisores");
+} else if (pessoas <= 4 && cargo === "supervisor") {
+  console.log("Acesso permitido: supervisor");
+} else if (cargo === "pesquisador" && dia >= 6) {
+  console.log("Acesso negado: fora do horario permitido");
+} else if (cargo === "pesquisador" && (hora < 8 || hora > 20)) {
+  console.log("Acesso negado: fora do horario permitido");
+} else if (cargo === "pesquisador" && (hora < 8 || hora < 20)) {
+  console.log("Acesso permitido: pesquisador dentro do horario ");
+} else if (cargo === "estudante" && dia >= 6) {
+  console.log("Acesso negado: fora do horario permitido");
+} else if (cargo === "estudante" && (hora < 8 || hora > 18)) {
+  console.log("Acesso negado: fora do horario permitido");
+} else if (cargo === "estudante" && dia <= 5 && (hora >= 8 || hora <= 18)) {
+  console.log("Acesso permitido: estudante dentro do horario");
+}

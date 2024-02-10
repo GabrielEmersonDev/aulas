@@ -5,7 +5,7 @@
 const numero = 0;
 
 if (numero % 2 === 0) {
-    console.log(`Numero ${numero} é par `)
+  console.log(`Numero ${numero} é par `);
 } else {
-    console.log(`Numero ${numero} é impar`)
+  console.log(`Numero ${numero} é impar`);
 }

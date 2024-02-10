@@ -8,10 +8,14 @@ const lado1 = 3;
 const lado2 = 2;
 const lado3 = 7;
 
-if ( lado1 === lado2 && lado3 != lado1 || lado2 === lado3 && lado1 != lado2 || lado3 === lado1 && lado2 != lado3) {
-    console.log("trianguli possui 2 lados iguais")
+if (
+  (lado1 === lado2 && lado3 != lado1) ||
+  (lado2 === lado3 && lado1 != lado2) ||
+  (lado3 === lado1 && lado2 != lado3)
+) {
+  console.log("trianguli possui 2 lados iguais");
 } else if (lado1 === lado2 && lado3 === lado2) {
-    console.log("tringulo equilatero, possui 3 lados iguais")
+  console.log("tringulo equilatero, possui 3 lados iguais");
 } else {
-    console.log("triangulo escaleno, tem 3 lados diferentes");
+  console.log("triangulo escaleno, tem 3 lados diferentes");
 }

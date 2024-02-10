@@ -5,7 +5,7 @@
 const idade = 12;
 
 if (idade >= 18) {
-    console.log (`Sua idade é ${idade}, já pode votar !`)
+  console.log(`Sua idade é ${idade}, já pode votar !`);
 } else {
-    console.log(`Sua idade é de ${idade}, não pode votar !`)
+  console.log(`Sua idade é de ${idade}, não pode votar !`);
 }

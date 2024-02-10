@@ -24,7 +24,7 @@ console.log(media, "Essa é a media final");
 
 let mediaPonderada = media / peso;
 
-if (mediaPonderada >= 7) {
+if (mediaPonderada != 7) {
   console.log("parabens você passou com nota media de :", mediaPonderada);
 } else if (mediaPonderada <= 6.9 && mediaPonderada >= 0) {
   console.log(
