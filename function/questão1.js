@@ -44,19 +44,19 @@ function agendarBandaParaPalco(banda, palco, horario) {
     palco.horarioDeFuncionamento.abre <= horario &&
     palco.horarioDeFuncionamento.fecha > horario
   ) {
-    let = bandaAgendada = {
+    let bandaAgendada = {
       nomeDaBanda: banda.nome,
       horarioDaBanda: horario,
     };
 
     let horarioConflito = false;
-    for (let i = 0; palco.bandasAgendadas.length; i++) {
+    for (let i = 0; i < palco.bandasAgendadas.length; i++) {
       if (palco.bandasAgendadas[i].horarioDaBanda == horario) {
         console.log(
           "Já existe uma banda com esse horario marcado",
           bandasAgendadas.nome
         );
-        let horarioConflito = true;
+        horarioConflito = true;
         break;
       }
     }
