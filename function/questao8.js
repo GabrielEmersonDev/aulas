@@ -7,7 +7,9 @@
 // // (porque 2^3 = 2 * 2 * 2 = 8).
 
 function calcularPotencial(num1, num2) {
+  //parametros
   if (num2 <= 1) {
+    //argumentos
     console.log("Digite um numero de 1 para cima");
     return;
   }
