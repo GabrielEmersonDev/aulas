@@ -12,7 +12,7 @@
 
 // ! nega
 
-function acharFalsy(array) {
+function acharFalsy1(array) {
   let contadorFalsy = 0;
 
   for (let i = 0; i < array.length; i++) {
@@ -23,37 +23,7 @@ function acharFalsy(array) {
   return contadorFalsy;
 }
 
-const arrayExemplo = [
-  0,
-  false,
-  "",
-  undefined,
-  null,
-  NaN,
-  42,
-  "Hello",
-  true,
-  null,
-  NaN,
-  42,
-  "Hello",
-  true,
-  null,
-  NaN,
-  42,
-  "Hello",
-  true,
-  null,
-  NaN,
-  42,
-  "Hello",
-  true,
-  null,
-  NaN,
-  42,
-  "Hello",
-  true,
-];
+const arrayExemplo1 = [0, false, "", undefined, null, NaN, 42, "Hello", true];
 
-const totalFalsy = acharFalsy(arrayExemplo);
-console.log(totalFalsy);
+const totalFalsy1 = acharFalsy1(arrayExemplo1);
+console.log(totalFalsy1);

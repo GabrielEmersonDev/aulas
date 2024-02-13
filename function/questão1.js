@@ -16,7 +16,7 @@ function criarBanda(nome, genero, integrantes) {
 
 const myBand = criarBanda("Careca", "Phonk", 6);
 const myBand1 = criarBanda("Cabeludo", "Sertanejo Universitario", 6);
-const myBand2 = criarBanda("O cara de cu", "Phonk", 6);
+const myBand2 = criarBanda("Xesque", "Phonk", 6);
 console.log(myBand);
 
 // Crie uma função criarPalco que recebe o nome do palco, limite de público e horário de funcionamento, e retorna um objeto palco.

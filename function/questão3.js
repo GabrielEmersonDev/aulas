@@ -3,8 +3,9 @@
 // O IMC é calculado dividindo o peso pela altura ao quadrado. Retorna o valor do IMC calculado.
 
 function calcumarIMC(peso, altura) {
+  //parametros
   let IMC;
-  IMC = peso / (altura * altura);
+  IMC = peso / (altura * altura); //argumentos
   return IMC;
 }
 
