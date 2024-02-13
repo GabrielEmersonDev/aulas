@@ -12,8 +12,10 @@ Operadores lógicos
 // console.log(expressaoOr);
 // console.log(expressaoNot);
 
-const usuario = "Luiz";
-const senha = "123456";
+// const usuario = "Luiz";
+// const senha = "123456";
 
-const vaiLogar = usuario === "Luiz" && senha === "123456";
-console.log(vaiLogar);
+// const vaiLogar = usuario === "Luiz" && senha === "123456";
+// console.log(vaiLogar);
+
+console.log(!true);
