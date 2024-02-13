@@ -18,4 +18,24 @@ Operadores lógicos
 // const vaiLogar = usuario === "Luiz" && senha === "123456";
 // console.log(vaiLogar);
 
-console.log(!true);
+// console.log(!true);
+
+// console.log("Gabriel Otávio" && true && "Maria");
+/*
+FALSY:
+ false
+0
+'',"",``
+null /undefined
+NaN
+*/
+
+console.log("luiz" && "" && "Maria");
+
+function falaOi() {
+  return "Oi";
+}
+
+const vaiExecutar = "Joãozinho";
+
+console.log(vaiExecutar && falaOi());
