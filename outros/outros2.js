@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+function createPeople(nome, sobrenome, idade) {
+  return {
+    nome,
+    sobrenome,
+    idade,
+  };
+}
+
+const pessoa1 = createPeople("Luiz", "otavio", 25);
+console.log(pessoa1)
+
+const pessoa2 = {
+    nome: 'Gabriel',
+    sobrenome: 'jose',
+    idade: 25,
+
+    fala() {
+        console.log("ola mundo!");
+    }
+}
+
+pessoa2.fala();
+=======
 /*
 Primitivos ( imutáveis ) - string, number, boolean, undefined,
  null ( bigint, symbol) - Valores copiados
@@ -35,3 +59,4 @@ mesmo valor na memoria
 // let b = a;
 
 // console.log(a, b);
+>>>>>>> 5e811d42ed9d5b48b140b1c8071fea0b06b9a10e
