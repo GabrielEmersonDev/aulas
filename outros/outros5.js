@@ -30,12 +30,22 @@ null /undefined
 NaN
 */
 
-console.log("luiz" && "" && "Maria");
+// console.log("luiz" && "" && "Maria");
 
-function falaOi() {
-  return "Oi";
-}
+// function falaOi() {
+//   return "Oi";
+// }
 
-const vaiExecutar = "Joãozinho";
+// const vaiExecutar = "Joãozinho";
 
-console.log(vaiExecutar && falaOi());
+// console.log(vaiExecutar && falaOi());
+
+// console.log(0 || false || null || "Cleiton jose" || true);
+
+const a = 0;
+const b = null;
+const c = "false"; // Está sendo exibido no console.log
+const d = false;
+const e = NaN;
+
+console.log(a || b || c || d || e);
