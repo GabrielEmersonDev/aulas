@@ -54,7 +54,20 @@
 //   return `${diaSemana}, ${dia} de ${mes} de ${ano} ${hora}:${min}`;
 // }
 
-const data = new Date();
-const dataFormatada = formataData(data);
+// const data = new Date();
+// const dataFormatada = formataData(data);
 
-h1.innerHTML = dataFormatada;
+// h1.innerHTML = dataFormatada;
+
+const h1 = document.querySelector(".container h1");
+const data = new Date();
+const opcoes = {
+  hour: "numeric",
+  minute: "numeric",
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+};
+
+h1.innerHTML = data.toLocaleDateString("pt-BR", opcoes);
