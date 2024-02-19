@@ -24,3 +24,6 @@ console.log(r, numero, endereço);
 // console.log(pessoa);
 // console.log(bolo, sobrenome, idade, endereço);
 // console.log(endereço);
+
+const { nome, ...resto } = pessoa;
+console.log(resto);

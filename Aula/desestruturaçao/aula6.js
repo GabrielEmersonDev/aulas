@@ -26,7 +26,7 @@ function encontrarFilmePorDiretor(array, diretor) {
   if (filmesEncontrados.length !== 0) {
     return filmesEncontrados;
   } else {
-    return `Não foram encontrados filmes com o diretor ${diretor}`;
+    return `Não foram encontrados filmes com o diretor: ${diretor}`;
   }
 }
 
